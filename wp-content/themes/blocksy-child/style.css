@@ -5,3 +5,72 @@
  * Template: blocksy
  * Text Domain: blocksy
  */
+
+ /*.entry-content{
+    background:#ece2da;
+ }*/
+
+ #header .ct-container{
+    width:90% !important;
+    margin:0 !important;
+ }
+
+ .ct-container-full{
+    padding-top:0 !important;
+ }
+
+ #wpforms-form-602{
+    width: 35%;
+    margin: 0 auto;
+ }
+
+ #wpforms-form-602 .wpforms-submit-container{
+    text-align:center;
+ }
+
+ .wpforms-container input.wpforms-field-medium, .wpforms-container select.wpforms-field-medium, .wpforms-container .wpforms-field-row.wpforms-field-medium{
+    max-width:100%;
+    background-color: white;
+ }
+
+ .wpforms-container textarea.wpforms-field-large{
+    background-color: white;
+ }
+
+ .button, .ct-button, .entry-tags a, .added_to_cart, [type="submit"], .wp-element-button, .wp-block-button__link, a.showlogin, a.restore-item, button.regform-button, button[class*="ajax"], .submit:where(:not(div.submit)), .forminator-ui[data-design="none"] .forminator-button{
+    background-color: #E0B9B4;
+    bottom:#E0B9B4 ;
+ }
+ 
+ .wpforms-container:not(.wpforms-container-full) .wpforms-field-label{
+   color: white;
+ }
+
+ 
+ .wpforms-submit-container{
+   display: none;
+ }
+
+
+/*bouton commander*/
+
+ .ct-header-cta{
+   width: 150px; 
+} 
+
+.elementor-624 -container{
+   width: 600px;
+   height: 300px;
+}
+
+.elementor-624 .elementor-element.elementor-element-3fe0f65 .elementor-heading-title{
+   padding-left: 27px;
+}
+
+
+/*bouton + et -*/
+
+.elementor-624 .elementor-element.elementor-element-b0b9317 > .elementor-element-populated{
+   width: 100px;
+   height: 100px;
+}
