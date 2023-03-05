@@ -1,4 +1,4 @@
-/**
+/*
  * Theme Name: Blocksy Child
  * Description: Blocksy Child theme
  * Author: Creative Themes
@@ -9,6 +9,10 @@
  /*.entry-content{
     background:#ece2da;
  }*/
+
+ h2{
+   line-height: 1.2em !important;
+ }
 
  #header .ct-container{
     width:90% !important;
@@ -39,7 +43,6 @@
 
  .button, .ct-button, .entry-tags a, .added_to_cart, [type="submit"], .wp-element-button, .wp-block-button__link, a.showlogin, a.restore-item, button.regform-button, button[class*="ajax"], .submit:where(:not(div.submit)), .forminator-ui[data-design="none"] .forminator-button{
     background-color: #E0B9B4;
-    bottom:#E0B9B4 ;
  }
  
  .wpforms-container:not(.wpforms-container-full) .wpforms-field-label{
@@ -53,24 +56,19 @@
 
 
 /*bouton commander*/
-
- .ct-header-cta{
-   width: 150px; 
+.ct-header-cta{
+   width:150px;
+}
+ .ct-header-cta a{
+   padding: 21px 30px;
+   border-radius: 0;
 } 
 
 .elementor-624 -container{
-   width: 600px;
-   height: 300px;
+   width: 37em;
+   height: 18em;
 }
 
 .elementor-624 .elementor-element.elementor-element-3fe0f65 .elementor-heading-title{
    padding-left: 27px;
-}
-
-
-/*bouton + et -*/
-
-.elementor-624 .elementor-element.elementor-element-b0b9317 > .elementor-element-populated{
-   width: 100px;
-   height: 100px;
 }
