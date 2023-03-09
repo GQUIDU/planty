@@ -10,6 +10,7 @@
     background:#ece2da;
  }*/
 
+
  h2{
    line-height: 1.2em !important;
  }
@@ -35,6 +36,18 @@
  .wpforms-container input.wpforms-field-medium, .wpforms-container select.wpforms-field-medium, .wpforms-container .wpforms-field-row.wpforms-field-medium{
     max-width:100%;
     background-color: white;
+ }
+
+ #wpforms-602-field_0-container > label:nth-child(1) {
+   font-weight: 600;
+   color: black;
+ }
+ #wpforms-602-field_1-container > label:nth-child(1) {
+   color: black;
+ }
+
+ #wpforms-602-field_2-container > label:nth-child(1) {
+   color: black;
  }
 
  .wpforms-container textarea.wpforms-field-large{
