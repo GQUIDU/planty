@@ -63,8 +63,16 @@
  }
 
  
- .wpforms-submit-container{
-   display: none;
+ .wpforms-submit-container button{
+   background:#E0B9B4;
+   color:#FFF;
+ }
+ .wpforms-submit-container button:hover{
+   background:#E0B9B4;
+ }
+
+ .page-id-624  .wpforms-submit-container{
+   display:none;
  }
 
 
